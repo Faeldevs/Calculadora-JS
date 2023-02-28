@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: FontDBZ;
+    src: url(Saiyan-Sans\ Right\ Oblique.ttf);
+}
+
+h1{
+    font-size: 3rem;
+    padding: 1rem;
+    color: #d0d009;
+    text-shadow: 10px 10px #d0d0092a;
+    font-family: FontDBZ ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.fundo {
+    background-image: linear-gradient(rgba(0,0,0,0.75 ),rgba(0,0,0,0.75 )), url(./banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+}
+
+.calculadora{
+    position: absolute;
+    background-color: #eaea083f;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 12px;
+    padding: 1rem;
+}
+
+.botao{
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    border: none;
+    margin: 2px;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.botao:hover{
+    background-color: #d0d009;
+    color: #fff;
+}
+
+.botao-linha{
+    height: 106px;
+}
+
+.botao-coluna{
+    width: 106px ;
+}
+
+#resultado{
+    width: 220px;
+    height: 35px;
+    margin: 5px;
+    padding: 2px;
+    background-color: #fff;
+    font-size: 1.5rem;
+    color: #000000;
+    text-align: right;
+}
